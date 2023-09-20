@@ -1,8 +1,8 @@
 import csiread
 
-csifile = './1_metal_objects/1/empty.dat'
+csifile = './1_distortion_objects/1/empty.dat'
 csidata = csiread.Atheros(csifile, nrxnum=5, ntxnum=5, tones=56)
-print('hi')
+print('Hi')
 csidata.read(endian='big')
 print(csidata.csi.shape)
-print('bye')
+print('Bye')
